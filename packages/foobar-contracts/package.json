@@ -1,0 +1,16 @@
+{
+  "name": "foobar-contracts",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "devDependencies": {
+    "rpc-lib": "workspace:*",
+    "typescript": "5.2.2"
+  },
+  "peerDependencies": {
+    "rpc-lib": "workspace:*"
+  }
+}

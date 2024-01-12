@@ -1,0 +1,7 @@
+{
+  "name": "no-quick-fix",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.0.2"
+}
